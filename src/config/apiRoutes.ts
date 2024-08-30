@@ -7,5 +7,7 @@ export const API_ROUTES = {
      *
      * @method POST
      */
-    SUBSCRIBE: '/subscribe',
-  };
+    subscribe: '/subscribe',
+};
+
+export default API_ROUTES;
