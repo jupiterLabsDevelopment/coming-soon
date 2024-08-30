@@ -28,7 +28,7 @@ export const subscribe = async (email: string): Promise<string> => {
       throw new Error('Service is currently unavailable. Please try again later.');
     }
 
-    const response = await apiClient.post(API_ROUTES.subscribe, { email });
+    const response = await apiClient.post(API_ROUTES.subscribe, { email, source: 'website' });
     
     if (response.status !== 201) {
       throw new Error('Unexpected response');

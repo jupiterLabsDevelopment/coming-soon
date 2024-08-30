@@ -10,7 +10,7 @@ export const API_ROUTES = {
      * 
      * @returns A promise that resolves to a string indicating the result of the subscription.
      */
-    subscribe: '/subscribe',
+    subscribe: '/api/subscribe',
 
     /**
      * Health check route.
