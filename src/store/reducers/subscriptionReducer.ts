@@ -26,15 +26,15 @@ const subscriptionSlice = createSlice({
   name: 'subscription',
   initialState,
   reducers: {
-    subscribeRequest: (state, action: PayloadAction<string>) => {
+    subscribeRequest: (state: SubscriptionState, action: PayloadAction<string>) => {
       state.email = action.payload;
       state.status = 'loading';
       state.errorMessage = undefined;
     },
-    subscribeSuccess: (state) => {
+    subscribeSuccess: (state: SubscriptionState) => {
       state.status = 'success';
     },
-    subscribeFailure: (state, action: PayloadAction<string>) => {
+    subscribeFailure: (state: SubscriptionState, action: PayloadAction<string>) => {
       state.status = 'failed';
       state.errorMessage = action.payload;
     },
