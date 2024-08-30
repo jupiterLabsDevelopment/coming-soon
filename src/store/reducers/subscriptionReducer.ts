@@ -48,7 +48,7 @@ export const subscribeUser = (email: string) => async (dispatch: AppDispatch) =>
   try {
     const message = await subscribe(email);
     dispatch(subscribeSuccess());
-    alert(message);
+    console.log(message);
   } catch (error: any) {
     dispatch(subscribeFailure(error.message));
   }
