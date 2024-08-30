@@ -1,4 +1,3 @@
-// src/config/i18n.ts
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -6,7 +5,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
-      jupiterLabs: "JUPITER LABS",
       upcomingLaunch: "Upcoming Launch",
       subscribe: "Subscribe",
       subscriptionInfo: "Sign up to be the first to know about our launch events.",
@@ -16,7 +14,6 @@ const resources = {
   },
   es: {
     translation: {
-      jupiterLabs: "JUPITER LABS",
       upcomingLaunch: "Próximo lanzamiento",
       subscribe: "Suscribirse",
       subscriptionInfo: "Inscríbete para ser el primero en saber acerca de nuestros eventos de lanzamiento.",
