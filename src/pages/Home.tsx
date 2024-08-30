@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import HomePresentation from "../sections/home/HomePresentation";
 import HomeSuscription from "../sections/home/HomeSuscription";
+import Footer from "../components/Footer";
 
 function Home() {
 
@@ -9,6 +10,7 @@ function Home() {
             <Header />
             <HomePresentation />
             <HomeSuscription />
+            <Footer />
         </section>
     );
 };

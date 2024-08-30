@@ -25,6 +25,7 @@ const resources = {
         },
       },
       serviceUnavailable: "It seems that the service is unavailable at this time. Please try again later.",
+      allRightsReserved: "All rights reserved.",
     },
   },
   es: {
@@ -49,6 +50,7 @@ const resources = {
         },
       },
       serviceUnavailable: "Parece que el servicio no está disponible en este momento. Por favor, inténtalo de nuevo más tarde.",
+      allRightsReserved: "Todos los derechos reservados.",
     },
   },
 };
