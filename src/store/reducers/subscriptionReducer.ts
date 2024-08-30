@@ -18,7 +18,7 @@ const initialState: SubscriptionState = {
  * Subscription reducer slice.
  *
  * @remarks
- * This slice handles the state related to subscription actions.
+ * This slice handles the state management for subscription related actions.
  *
  * @packageDocumentation
  */
